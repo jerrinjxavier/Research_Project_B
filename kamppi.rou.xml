@@ -24,7 +24,7 @@
 
     <time>
         <begin value="0"/>
-        <end value="1800.0"/>
+        <end value="500.0"/>
     </time>
 
     <report>

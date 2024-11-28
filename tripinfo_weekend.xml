@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-28 19:23:28 by Eclipse SUMO sumo Version 1.21.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="kamppi.net.xml"/>
+        <route-files value="weekend.rou.xml"/>
+        <additional-files value="additional.add.xml"/>
+    </input>
+
+    <output>
+        <emission-output value="emission_weekend.xml"/>
+        <queue-output value="queue_weekend.xml"/>
+        <summary-output value="summary_weekend.xml"/>
+        <tripinfo-output value="tripinfo_weekend.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1800"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <max-num-vehicles value="500"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="63737"/>
+    </traci_server>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="0" depart="0.00" departLane="30568275#2_0" departPos="5.10" departSpeed="0.00" departDelay="0.00" arrival="47.00" arrivalLane="-114554802#6_0" arrivalPos="9.37" arrivalSpeed="8.25" duration="47.00" routeLength="352.86" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.05" rerouteNo="0" devices="tripinfo_0 emissions_0" vType="DEFAULT_VEHTYPE" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="1893.228575" CO2_abs="92758.239530" HC_abs="10.728272" PMx_abs="1.370692" NOx_abs="36.713853" fuel_abs="29586.177150" electricity_abs="0"/>
+    </tripinfo>
+</tripinfos>
